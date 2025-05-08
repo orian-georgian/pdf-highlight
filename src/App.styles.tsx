@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AppContainer = styled.div`
   display: flex;
-  gap: 1rem;
+  gap: .4rem;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;

@@ -4,6 +4,7 @@ export const PdfViewerContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: .5rem;
 `;
 
 export const PdfViewerPage = styled.div`

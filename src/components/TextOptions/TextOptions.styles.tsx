@@ -8,7 +8,7 @@ export const List = styled.ul`
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -16,10 +16,10 @@ export const List = styled.ul`
 
 export const ListItem = styled.li<{ $selected: boolean }>`
   background-color: var(--color-white);
-  padding: 1.5rem;
+  padding: 1rem;
   cursor: pointer;
-  font-size: 1rem;
-  line-height: 1.2;
+  font-size: .8rem;
+  line-height: 1.3;
   color: var(--color-dark-gray);
   transition: background-color 0.2s;
   border-radius: var(--border-radius);
