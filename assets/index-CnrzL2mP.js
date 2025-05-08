@@ -70,6 +70,7 @@ Error generating stack: `+a.message+`
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: .5rem;
 `,bO=Us.div`
     position: relative;
 `,vO=Us.canvas`
@@ -83,16 +84,16 @@ Error generating stack: `+a.message+`
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
   list-style-type: none;
   padding: 0;
   margin: 0;
 `,wO=Us.li`
   background-color: var(--color-white);
-  padding: 1.5rem;
+  padding: 1rem;
   cursor: pointer;
-  font-size: 1rem;
-  line-height: 1.2;
+  font-size: .8rem;
+  line-height: 1.3;
   color: var(--color-dark-gray);
   transition: background-color 0.2s;
   border-radius: var(--border-radius);
@@ -106,7 +107,7 @@ Error generating stack: `+a.message+`
   }
 `,TO=[{id:"1",content:"Cigna Dental Preventive Plan If You Wish To Cancel Or If You Have Questions If You are not satisfied, for any reason, with the terms of this Policy You may return it to Us within 10 days of receipt. We will then cancel Your coverage as of the original Effective Date and promptly refund any premium You have paid. This Policy will then be null and void. If You wish to correspond with Us for this or any other reason, write: Cigna Cigna Individual Services P. O. Box 30365 Tampa, FL 33630 1-877-484-5967"},{id:"2",content:"EXCLUSIONS AND LIMITATIONS: WHAT IS NOT COVERED BY THIS POLICY........................................ 11"},{id:"3",content:"Notice Regarding Provider Directories and Provider Networks If Your Plan utilizes a network of Providers, you will automatically and without charge, receive a separate listing of Participating Providers. You may also have access to a list of Providers who participate in the network by visiting www.cigna.com; mycigna.com. Your Participating Provider network consists of a group of local dental practitioners, of varied specialties as well as general practice, who are employed by or contracted with Cigna HealthCare or Cigna Dental Health. Notice Regarding Standard of Care Under state law, Cigna is required to adhere to the accepted standards of care in the administration of health benefits. Failure to adhere to the accepted standards of care may subject Cigna to liability for damages. PLEASE READ THE FOLLOWING IMPORTANT NOTICE"}],xO=()=>{const{selectedText:d,setSelectedText:t}=gx(),e=n=>r=>{r.preventDefault(),t(n)};return Je.jsx(_O,{children:Je.jsx(EO,{children:TO.map(n=>Je.jsx(wO,{$selected:(d==null?void 0:d.id)===n.id,onClick:e(n),children:n.content},n.id))})})},CO=Us.div`
   display: flex;
-  gap: 1rem;
+  gap: .4rem;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
